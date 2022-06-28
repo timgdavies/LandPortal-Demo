@@ -27,7 +27,7 @@ def etl():
         unpivot(unpivoting_fields, extra_keys, extra_value),
         
         # Save the results
-        add_metadata(name='GAIN Index', title='Gain Index'),
+        add_metadata(name='gain_index', title='Gain Index'),
 
         # Output
         dump_to_path(out_path='output'),
