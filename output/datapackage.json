@@ -1,0 +1,55 @@
+{
+  "bytes": 176824,
+  "count_of_rows": 4800,
+  "hash": "3c7f0c4b0c4bab516226860c638bbea9",
+  "name": "GAIN Index",
+  "profile": "data-package",
+  "resources": [
+    {
+      "bytes": 176824,
+      "dialect": {
+        "caseSensitiveHeader": false,
+        "delimiter": ",",
+        "doubleQuote": true,
+        "header": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "4d8da33bea3476465ab04109a4c36c18",
+      "name": "gain",
+      "path": "gain.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "ISO3",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Name",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "year",
+            "type": "year"
+          },
+          {
+            "format": "default",
+            "name": "value",
+            "type": "string"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    }
+  ],
+  "title": "Gain Index"
+}
